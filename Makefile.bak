@@ -1,0 +1,4 @@
+github:
+	pelican content -s publishconf.py
+	ghp-import -b gh-pages output
+	git push origin gh-pages
